@@ -1,0 +1,3 @@
+# Bikeverywhere Raw Data
+
+For almost 40 years, Doug Shidell published a printed map of curated bike routes around the Twin Cities, Metro area and beyond called Bikeverywhere. These maps are still available on [Avenza in GeoPDF form](https://store.avenza.com/collections/crossover-ventures-llc) but are no longer being updated or maintained. This repository contains the raw data used to generate these maps as acquired from Doug in 2022, licensed under a Creative Commons Zero v1.0 Universal license allowing for commericial use, distribution, modification and private use. Please review the `LICENSE` file for more details.

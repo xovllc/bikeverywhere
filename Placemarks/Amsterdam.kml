@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <Schema id="schema0" name="schema0">
+      <SimpleField name="Description" type="string"/>
+      <SimpleField name="pdfmaps_photos" type="string">
+        <displayName>Photos</displayName>
+      </SimpleField>
+    </Schema>
+    <Folder>
+      <styleUrl>#style0</styleUrl>
+      <name>Air bnb</name>
+      <ExtendedData>
+        <SchemaData schemaUrl="#schema0"/>
+      </ExtendedData>
+      <Placemark>
+        <name>Lutmastraat 15 floor 3</name>
+        <TimeStamp>
+          <when>2018-08-15T19:40:21-05:00</when>
+        </TimeStamp>
+        <styleUrl>#style1</styleUrl>
+        <ExtendedData>
+          <SchemaData schemaUrl="#schema0">
+            <SimpleData name="Description">Atanas Petrov or Iztok
+Train to Amsterdam Centraal
+Metro 52 (destination Zuid) to station De Pijp
+walk 200 meters</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.89277514398888,52.3508663212728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Overtoom 305</name>
+        <TimeStamp>
+          <when>2018-08-15T19:31:15-05:00</when>
+        </TimeStamp>
+        <styleUrl>#style1</styleUrl>
+        <ExtendedData>
+          <SchemaData schemaUrl="#schema0">
+            <SimpleData name="Description">phone 31621658842
+Airport train to Station Lelyaan
+Train 1 to Jan Pieter Heyestraat
+50 meters walk
+35 minutes duration</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.86544218648761,52.3600382681418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tulip Inn</name>
+        <TimeStamp>
+          <when>2018-08-30T09:33:08-05:00</when>
+        </TimeStamp>
+        <styleUrl>#style1</styleUrl>
+        <ExtendedData>
+          <SchemaData schemaUrl="#schema0">
+            <SimpleData name="Description">Piet Guilonardweg 3,
+1117 EE Schiphol
+31 20 820 2220
+confirmation # 224579770</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.80744960716984,52.3063901067691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Style id="style0">
+      <IconStyle>
+        <color>ff0095ff</color>
+        <Icon>
+          <href>http://download.avenza.com/images/pdfmaps_icons/pin-red-inground.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+      </IconStyle>
+      <LineStyle>
+        <color>ff0095ff</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff0095ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="style1">
+      <IconStyle>
+        <Icon>
+          <href>http://download.avenza.com/images/pdfmaps_icons/pin-red-inground.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+      </IconStyle>
+    </Style>
+  </Document>
+</kml>
